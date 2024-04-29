@@ -1,0 +1,153 @@
+.nav a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    margin-top: 3%;
+}
+.nav{
+    display: flex;
+    background-color: rgb(25,54,76);
+    justify-content: space-around;
+}
+.nav a:hover{
+    background-color: rgb(21, 179, 179);
+    height: 19px;
+}
+body{
+    background-color: rgb(207, 245, 232);
+}
+#login.a{
+    color:beige;
+    text-decoration: none;
+    
+}
+h2{
+    margin-top: 1%;
+}
+.logo1{
+    width: 7%;
+    height: 9%;
+    margin-left: 0;
+
+}
+.logo{
+    width: 7%;
+    height: 10%;
+    
+    margin-top: 1%;
+}
+.webpage{
+    margin-top: 10%;
+}
+.sign a{
+    color: azure;
+}
+.landing-page{
+    margin-top: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.input{
+    width: 30%;
+    border-radius: 25px;
+    border: solid 1px;
+    padding: 12px 12px;
+    color: white;
+    background-color: rgb(25,54,76);
+}
+label{
+    margin-left:1px;
+}
+form{
+    text-align: center;
+    border: solid 1px;
+
+    
+}
+#log{
+    color: antiquewhite;
+}
+button {
+    color: white;
+    background-color: rgb(25,54,76);
+    border-radius: 15px;
+    padding: 10px 20px;
+    
+}
+.mentor-details{
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+}
+.mentor-pic{
+    width: 70%;
+    border-radius: 90px;
+    margin-top: 2%;
+    
+}
+
+#career-details{
+    margin-top: 12%;
+    text-align: left;
+}
+.comment{
+    color: rgb(232, 85, 31);
+    margin-top: 15%;
+}
+.goals{
+    display: flex;
+    justify-content: space-around;
+}
+.Goals{
+    text-align: center;
+    color: rgb(25, 54, 76);
+    font-size: 40px;
+}
+.achieve{
+    text-align: center;
+}
+.li{
+    text-align: center;
+    margin-top: 0;
+}
+.Goals1{
+    color: rgb(25, 54, 76);
+    font-size: 30px;
+    margin-left: 6%;
+}
+.sum{
+    
+    text-align: left;
+    margin-left: 1%;
+}
+.li a{
+    text-decoration:double;
+    
+}
+@media screen and (max-width:768) {
+ body{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    
+ } 
+ .sum{
+    font-size: small;
+    margin-left: 0;
+    flex-wrap: wrap;
+    
+    
+
+ }  
+ .goals{
+    flex-wrap: wrap;
+ }
+ .mentor-details{
+    flex-wrap: wrap;
+    
+    }
+
+}

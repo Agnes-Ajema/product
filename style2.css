@@ -1,0 +1,156 @@
+.nav a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+}
+.nav{
+    display: flex;
+    background-color: rgb(25,54,76);
+    justify-content: space-around;
+}
+.nav a:hover{
+    background-color: rgb(21, 179, 179);
+    height: 19px;
+}
+.logo{
+    width: 7%;
+    height: 10%;
+    background-color: rgb(25, 54, 76);
+    margin-top: 1%;
+}
+body{
+    background-color: rgb(207, 245, 232);
+}
+.achievements{
+    width: 70%;
+    min-height: 100vh;
+    /* background-color: rgb(127,64,152); */
+    color: #000;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.achievements-button{
+    background-color: aliceblue;
+    color: rgb(25, 54, 76);
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input-box{
+    position: absolute;
+    width: 50%;
+    max-width: 500px;
+    min-height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+.btn{
+    height: 7vh;
+    border-radius: 10px;
+    background-color: rgb(25, 54, 76);
+    color: #fff;
+}
+h1{
+    color:rgb(25, 54, 76);
+    font-size: 40px;
+}
+body{
+    background-color: rgb(207, 245, 232);
+}
+a{
+text-decoration: none;
+}
+.sumary{
+    color: #000;
+    background-color: #000;
+}
+#navbar{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+a{
+color: white;
+}
+
+@media screen and (max-width:768) {
+    body{
+       width: 100px;
+       padding: 0;
+       margin: 0;
+       
+    } 
+    .sum{
+       font-size: small;
+       margin-left: 0;
+       flex-wrap: wrap;
+    
+    }  
+    .goals{
+       flex-wrap: wrap;
+    }
+    .mentor-details{
+       flex-wrap: wrap;
+       
+       }
+       button{
+       margin-right: 30%;
+        }
+        .row{
+           flex-wrap: wrap;
+           padding: 10px 10px;
+           text-align: center;
+            }
+            .container{
+                width: 30%;
+                min-height: 100vh;
+                padding: 10px;
+                justify-content: center;
+            }
+            .nav a{
+                flex-wrap: wrap;
+                justify-content: space-around;
+                text-decoration: none;
+                color: white;
+                margin-top: 5%;
+            }
+            .nav{
+                flex-wrap: wrap;
+                background-color: rgb(25,54,76);
+                justify-content: space-around;
+            }
+            .nav a:hover{
+                background-color: rgb(21, 179, 179);
+                height: 19px;
+            }
+   
+   }
+   
+  
+  
+  
+  
+ 
+
+
+  
+ 
+   
+   
+  
+ 
+   

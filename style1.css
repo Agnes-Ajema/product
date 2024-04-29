@@ -1,0 +1,341 @@
+.nav a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+}
+body{
+    background-color: rgb(207, 245, 232);
+}
+.nav{
+    display: flex;
+    background-color: rgb(25,54,76);
+    justify-content: space-around;
+}
+.nav a:hover{
+    background-color: rgb(21, 179, 179);
+    height: 19px;
+}
+.logo{
+    width: 7%;
+    height: 10%;
+    background-color: rgb(25, 54, 76);
+    margin-top: 1%;
+}
+   .row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #EDEEF0;
+   border-radius: 30px;
+   padding-left: 10px;
+   margin-left: 20px;
+   margin-bottom: 25px;
+   }
+   .todo_list{
+       width: 40px;
+       max-width: 540px;
+       background: #fff;
+       border-radius: 10px;
+       justify-content: center;
+       margin-left: 40%;
+       border:solid 1px;
+       margin-top: 1%;
+   }
+   .todo_list h2{
+   color:rgb(25, 54, 76);
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   }
+   input{
+       flex: 1;
+       border: none;
+       outline: none;
+       background:transparent;
+       padding: 10px;
+       font-weight: 14px;
+       width: 80px;
+   }
+   button{
+   border: none;
+   outline: none;
+   padding: 16px 50px;
+   background-color:rgb(25,54,76);
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 40px;
+   }
+   ul li{
+   list-style: none;
+   font-size: none;
+   padding: 12px 8px 12px 50px;
+   user-select: none;
+   cursor: pointer;
+   position: relative;
+   }
+   
+   ul li span{
+   position: absolute;
+   right: 0;
+   top: 5px;
+   width: 40px;
+   height: 40px;
+   font-size: 22px;
+   color: #555;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   }
+   ul li span:hover{
+       background: #EDEEF0;
+   }
+   .todo-list{
+       width: 150%;
+       max-width: 540px;
+       background-color: #fff;
+       margin: 100px auto 20px;
+       padding: 10px;
+       border-radius: 10px;
+   }
+   .row{
+       display: flex;
+       align-items: center;
+       gap: 20%;
+       padding-left: 20px;
+       margin-bottom: 25px;
+       padding-left: 20px;
+   }
+   #input-box{
+       flex: 1;
+       border: none;
+       background-color: transparent;
+       margin-top: 1%;
+   }
+   ul li{
+       list-style-type: none;
+       font-size: 20px;
+       padding: 15px;
+       user-select: none;
+       cursor: pointer;
+       position: relative;
+   }
+   
+   .container{
+   width: 70%;
+   min-height: 70vh;
+   padding: 10px;
+   text-align: center;
+   
+   }
+   .row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #EDEEF0;
+   border-radius: 30px;
+   padding-left: 10px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   }
+ 
+   
+ 
+   button{
+   border: none;
+   outline: none;
+   padding: 16px 50px;
+   background-color:rgb(25,54,76);
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 40px;
+   }
+  
+   ul li span{
+   position: absolute;
+   right: 0;
+   top: 5px;
+   width: 40px;
+   height: 40px;
+   font-size: 22px;
+   color: #555;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   }
+   ul li span:hover{
+       background: #EDEEF0;
+   }
+   .todo-list{
+       width: 80%;
+       max-width: 500px;
+       background-color: #fff;
+       padding: 10px;
+       border-radius: 10px;
+       margin-top: 7%;
+       text-align: center;
+       margin-left: 30%;
+
+   }
+   .row{
+       display: flex;
+       align-items: center;
+       gap: 20%;
+       padding-left: 20px;
+       margin-bottom: 25px;
+       padding-left: 20px;
+   }
+ 
+   ul li.checked{
+       color: #000;
+       text-decoration: line-through;
+   }
+   ul li.checked::before{
+       background-image: url(/images/checked.png);
+   }
+   ul li span{
+       position: absolute;
+       right: 0;
+   }
+  
+.row{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+#input-box{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+}
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+h2{
+    font-size: 40px;
+    color: rgb(25, 54, 76);
+}
+ul li::before{
+ content: "";
+ position: absolute;
+ width: 20px;
+ height: 10vh;
+ border-radius: 50%;
+ background-image: url(images/radio-button-off-unchecked-round-circle-512.webp);
+ background-size: cover;
+ background-position: center;
+ top: 10px;
+ left: 7px;
+}
+ul li.checked{
+    color: #000;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(/images/checked.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+}
+
+ 
+ 
+   
+   @media screen and (max-width:768) {
+    body{
+       width: 100px;
+       padding: 0;
+       margin: 0;
+       
+    } 
+    .sum{
+       font-size: small;
+       margin-left: 0;
+       flex-wrap: wrap;
+    
+    }  
+    .goals{
+       flex-wrap: wrap;
+    }
+    .mentor-details{
+       flex-wrap: wrap;
+       
+       }
+       
+        .row{
+           flex-wrap: wrap;
+           padding: 10px 10px;
+           text-align: center;
+            }
+            .container{
+                width: 20%;
+                min-height: 100vh;
+                padding: 10px;
+                justify-content: center;
+            }
+            .nav a{
+                flex-wrap: wrap;
+                text-decoration: none;
+                color: white;
+                margin-top: 5%;
+            }
+            .nav{
+                flex-wrap: wrap;
+                background-color: rgb(25,54,76);
+                justify-content: space-around;
+                width: 50%;
+            }
+.nav a:hover{
+background-color: rgb(21, 179, 179);
+height: 19px;
+}
+
+   button{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background-color:rgb(8, 25, 37);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 10%;
+    margin-left: 5%;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        gap: 5%;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+   
+   }
+   
+  
+  
+  
+  
+ 
+
+
+  
+ 
+   
+   
+  
+ 
+   
